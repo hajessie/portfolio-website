@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaInstagram, FaReact, FaShoppingBag, FaUserGraduate } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -35,27 +35,27 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Social Media/Graphic Design Intern at Eighth College",
+    location: "La Jolla, CA",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
+      "Interned as a Social Media/Graphic Design Intern at Eighth College, contributing to the creation of educational and marketing content published across various social media platforms. Utilized Adobe Suite to develop multimedia presentations for events and campus initiatives, actively driving engagement and supporting overall communication efforts.",
+    icon: React.createElement(FaInstagram), // Change to a relevant icon for social media
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Rosemead High School Adult School",
+    location: "Rosemead, CA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
+      "Provided integral support and guidance to 100+ adult learners, facilitating successful English language acquisition through diverse academic activities. Effectively addressed an average of 20 student inquiries daily, enhancing their overall learning experiences. Streamlined administrative tasks, achieving a 30% increase in operational efficiency.",
+    icon: React.createElement(FaUserGraduate), // Change to a relevant icon for education/support
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "J-Grails",
+    location: "Los Angeles, CA",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+      "Founded and led a successful online/in-person sneaker and clothing business. Achieved a 20% increase in conversion rates through product and sales expertise, and secured growth in repeat sales by cultivating strategic customer relationships.",
+    icon: React.createElement(FaShoppingBag), // Change to a relevant icon for business
     date: "2021 - present",
   },
 ] as const;
