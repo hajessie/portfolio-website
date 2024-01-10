@@ -17,10 +17,9 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>More About me</SectionHeading>
       <p className="mb-3">
-      Hi my name is Jessie and I am a 2nd year at the University of California San Diego studying
-        <span className="font-medium"> Cognitive Science </span>, with a minor in computer science. I decided to pursue my
+      Welcome! I'm Jessie and I am a 2nd year at the University of California San Diego. :D I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp with Amazon and Coursera and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
@@ -40,8 +39,8 @@ export default function About() {
         <span className="italic">When I'm not coding</span>, I enjoy playing
         video games, watching movies, and content creation. I also enjoy{" "}
         <span className="font-medium">playing basketball and getting boba with friends</span>. I am currently
-        learning to{" "}
-        <span className="font-medium">cook and bake homemade recipes</span>.
+        learning{" "}
+        <span className="font-medium">new Tiktok dances to remake with friends</span>.
       </p>
     </motion.section>
   );
